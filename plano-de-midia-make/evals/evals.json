@@ -1,0 +1,27 @@
+﻿{
+  "skill_name": "plano-de-midia-make",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Aqui está a transcrição da nossa R1 com a Odonto Premium. Pode montar o plano de mídia?\n\n[Conteúdo do arquivo evals/files/r1-simulada.txt]",
+      "expected_output": "Fluxo completo da skill: resumo de extração, confirmação, pergunta do M faltante, pesquisa de mercado e artefato HTML final com 13 seções na identidade visual Make",
+      "files": ["evals/files/r1-simulada.txt"],
+      "expectations": [
+        "Exibe resumo de extração com os campos corretos antes de gerar o plano",
+        "Pergunta confirmação do entendimento antes de seguir",
+        "Pergunta explicitamente o M do cliente quando ele não estiver na transcrição",
+        "Executa pesquisa web sobre Sorriso Perfeito, OdontoFácil e tendências de odontologia/implantes",
+        "Gera artefato HTML completo com as 13 seções na ordem correta",
+        "OKR macro é mensurável com KR1/KR2/KR3 concretos",
+        "ICP inclui dores específicas do nicho odontológico, não genéricas",
+        "SWOT tem mínimo 4 itens por quadrante baseados no cliente",
+        "Análise de concorrência tem insights acionáveis além de lista de nomes",
+        "Cada campanha prevista recebe R$ 3.000/mês individualmente, sem dividir um budget total entre campanhas",
+        "Budget allocation mostra investimento por campanha e investimento máximo simultâneo conforme as campanhas ativas",
+        "OKRs por campanha incluem CPL estimado baseado em benchmarks de odontologia com curva de otimização entre os meses",
+        "Cronograma detalha as 4 semanas do Mês 1 e traz triggers específicos para avançar de fase",
+        "Exibe a mensagem final ao growth após entregar o plano"
+      ]
+    }
+  ]
+}

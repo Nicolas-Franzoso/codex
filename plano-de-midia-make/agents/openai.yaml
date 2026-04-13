@@ -1,0 +1,7 @@
+﻿interface:
+  display_name: "Plano de Midia Make"
+  short_description: "Gera plano de midia estrategico em HTML"
+  default_prompt: "Use $plano-de-midia-make para transformar uma transcrição de R1 em um plano de mídia completo da Make em HTML."
+
+policy:
+  allow_implicit_invocation: true
